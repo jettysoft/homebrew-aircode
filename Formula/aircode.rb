@@ -4,13 +4,13 @@
 class Aircode < Formula
   desc "Blazing-fast TUI coding agent — multi-model, swarm coordination, 30+ tools"
   homepage "https://github.com/jettysoft/aircode-releases"
-  version "0.55.31"
+  version "0.55.32"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jettysoft/aircode-releases/releases/download/v0.55.31/aircode-macos-aarch64.tar.gz"
-      sha256 "64fbd64c5987af334de2f3e3081e2d5f4847e5281fc6f37d0b61972abe3b6b76"
+      url "https://github.com/jettysoft/aircode-releases/releases/download/v0.55.32/aircode-macos-aarch64.tar.gz"
+      sha256 "5e627cb69a22a6f7627eed6b1bc70461998f4704dc8baa80d13e97e731d6cbfe"
 
       def install
         bin.install "aircode-macos-aarch64" => "aircode"
@@ -18,8 +18,8 @@ class Aircode < Formula
     end
 
     on_intel do
-      url "https://github.com/jettysoft/aircode-releases/releases/download/v0.55.31/aircode-macos-x86_64.tar.gz"
-      sha256 "63f2942cf1b1e53d6d892e6822a50a410aee531bb9180304314e26c5169fbc04"
+      url "https://github.com/jettysoft/aircode-releases/releases/download/v0.55.32/aircode-macos-x86_64.tar.gz"
+      sha256 "5f3f9850ebe16b3f2d4f529a15228c8fbe6657957a2742c6179050736743b39f"
 
       def install
         bin.install "aircode-macos-x86_64" => "aircode"
@@ -29,8 +29,8 @@ class Aircode < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/jettysoft/aircode-releases/releases/download/v0.55.31/aircode-linux-x86_64.tar.gz"
-      sha256 "660ce566f2337fa1972693f40c9891b1e2784632440faf846dc8d715ed00c5b0"
+      url "https://github.com/jettysoft/aircode-releases/releases/download/v0.55.32/aircode-linux-x86_64.tar.gz"
+      sha256 "96c83062af7c49b833499f9ad8f37869e73f1474d336bda95a14b3e576704d0f"
 
       def install
         libexec.install "aircode-linux-x86_64", "aircode-linux-x86_64.bin"
